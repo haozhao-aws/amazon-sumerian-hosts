@@ -7,7 +7,7 @@
 /* eslint-disable no-underscore-dangle */
 import ManagedAnimationLayerInterface from 'core/animpack/ManagedAnimationLayerInterface';
 import AbstractHostFeature from 'core/AbstractHostFeature';
-import HostObject from 'app/HostObject';
+import HostObject from 'core/HostObject';
 import describeEnvironment from '../EnvironmentHarness';
 
 describeEnvironment('ManagedAnimationLayerInterface', () => {

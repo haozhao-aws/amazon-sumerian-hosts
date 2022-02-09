@@ -4,7 +4,7 @@
 /* eslint-disable no-underscore-dangle */
 import Messenger from 'app/Messenger';
 import TextToSpeechFeature from 'app/awspack/TextToSpeechFeature';
-import {Speech} from '@amazon-sumerian-hosts/core';
+import Speech from 'app/awspack/Speech';
 import describeEnvironment from '../EnvironmentHarness';
 
 describeEnvironment('TextToSpeechFeature', (options, env) => {

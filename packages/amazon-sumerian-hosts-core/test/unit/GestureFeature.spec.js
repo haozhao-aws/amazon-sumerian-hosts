@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: MIT-0
 /* eslint-disable no-underscore-dangle */
 import GestureFeature, {DefaultGestureWords} from 'core/GestureFeature';
-import HostObject from 'app/HostObject';
+import HostObject from 'core/HostObject';
 import Deferred from 'core/Deferred';
 import Utils from 'core/Utils';
 import describeEnvironment from './EnvironmentHarness';

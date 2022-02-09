@@ -6,7 +6,7 @@
 /* eslint-disable no-underscore-dangle */
 import FeatureDependentInterface from 'core/FeatureDependentInterface';
 import AbstractHostFeature from 'core/AbstractHostFeature';
-import HostObject from 'app/HostObject';
+import HostObject from 'core/HostObject';
 import describeEnvironment from './EnvironmentHarness';
 
 describeEnvironment('FeatureDependentInterface', () => {

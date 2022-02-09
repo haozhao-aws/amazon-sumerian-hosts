@@ -5,7 +5,7 @@
 /* eslint-disable jasmine/prefer-toHaveBeenCalledWith */
 /* eslint-disable no-underscore-dangle */
 import AbstractHostFeature from 'core/AbstractHostFeature';
-import Messenger from 'app/Messenger';
+import Messenger from 'core/Messenger';
 import describeEnvironment from './EnvironmentHarness';
 
 describeEnvironment('AbstractHostFeature', (options = {}) => {

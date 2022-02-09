@@ -5,7 +5,7 @@
 /* eslint-disable jasmine/prefer-toHaveBeenCalledWith */
 /* eslint-disable no-underscore-dangle */
 import {LayerBlendModes} from 'core/animpack/AnimationLayer';
-import AnimationFeature from 'app/animpack/AnimationFeature';
+import AnimationFeature from 'core/animpack/AnimationFeature';
 import Deferred from 'core/Deferred';
 import describeEnvironment from '../EnvironmentHarness';
 

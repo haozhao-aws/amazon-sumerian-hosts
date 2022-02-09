@@ -3,7 +3,7 @@
 /* eslint-disable jasmine/no-spec-dupes */
 /* eslint-disable no-underscore-dangle */
 import LipsyncFeature, {DefaultVisemeMap} from 'core/LipsyncFeature';
-import HostObject from 'app/HostObject';
+import HostObject from 'core/HostObject';
 import Deferred from 'core/Deferred';
 import describeEnvironment from '../EnvironmentHarness';
 

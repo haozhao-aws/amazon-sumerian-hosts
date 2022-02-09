@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: MIT-0
 import { AbstractTextToSpeechFeature,
   TextToSpeechFeature as CoreTextToSpeechFeature } from '@amazon-sumerian-hosts/core';
+import Speech from './Speech';
 
 /**
  * Babylonjs Scene object
@@ -89,6 +90,10 @@ class TextToSpeechFeature extends CoreTextToSpeechFeature {
           }
         });
       });
+  }
+
+   _createSpeech(text, speechmarks, audioConfig) {
+    return new Speech(this, text, speechmarks, audioConfig);
   }
 }
 

@@ -6,7 +6,7 @@
 /* eslint-disable jasmine/no-spec-dupes */
 import AbstractSpeech from 'core/awspack/AbstractSpeech';
 import Deferred from 'core/Deferred';
-import Messenger from 'app/Messenger';
+import Messenger from 'core/Messenger';
 import describeEnvironment from '../EnvironmentHarness';
 
 describeEnvironment('AbstractSpeech', () => {

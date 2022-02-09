@@ -7,7 +7,7 @@
 /* eslint-disable no-underscore-dangle */
 import SSMLSpeechmarkInterface from 'core/awspack/SSMLSpeechmarkInterface';
 import AbstractHostFeature from 'core/AbstractHostFeature';
-import HostObject from 'app/HostObject';
+import HostObject from 'core/HostObject';
 import describeEnvironment from '../EnvironmentHarness';
 
 describeEnvironment('SSMLSpeechmarkInterface', () => {
