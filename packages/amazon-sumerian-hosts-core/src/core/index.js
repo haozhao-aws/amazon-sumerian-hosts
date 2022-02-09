@@ -36,9 +36,10 @@ const {
   AbstractTextToSpeechFeature,
   TextToSpeechFeature,
   TextToSpeechUtils,
-  Speech, 
-  AbstractSpeech } = aws
-
+  AbstractSpeech,
+  Speech 
+  } = aws
+  
 export default {
   /**
    * @see env
@@ -91,57 +92,57 @@ export default {
   /**
    * @see core/AnimationFeature
    */
-   AnimationFeature,
+  AnimationFeature,
    /**
     * @see AnimationLayer
     */
-   AnimationLayer,
+  AnimationLayer,
    /**
     * @see core/SingleState
     */
-   SingleState,
+  SingleState,
    /**
     * @see TransitionState
     */
-   TransitionState,
+  TransitionState,
    /**
     * @see FreeBlendState
     */
-   FreeBlendState,
+  FreeBlendState,
    /**
     * @see QueueState
     */
-   QueueState,
+  QueueState,
    /**
     * @see RandomAnimationState
     */
-   RandomAnimationState,
+  RandomAnimationState,
    /**
     * @see Blend1dState
     */
-   Blend1dState,
+  Blend1dState,
    /**
     * @see Blend2dState
     */
-   Blend2dState,
+  Blend2dState,
    /**
     * @see AnimationUtils
     */
-   AnimationUtils,
+  AnimationUtils,
  
-   Easing,
+  Easing,
    /**
     * @see LayerBlendModes
     */
-   LayerBlendModes,
+  LayerBlendModes,
    /**
     * @see DefaultLayerBlendMode
     */
-   DefaultLayerBlendMode,
+  DefaultLayerBlendMode,
    /**
     * @see AnimationTypes
     */
-   AnimationTypes,
+  AnimationTypes,
 
    // AWS Pack
    /**
@@ -157,11 +158,12 @@ export default {
    */
   TextToSpeechUtils,
   /**
-   * @see core/Speech
-   */
-  Speech,
-  /**
    * @see core/AbstractSpeech
    */
-  AbstractSpeech
+  AbstractSpeech,
+  
+  /**
+   * @see core/Speech
+   */
+   Speech
 };

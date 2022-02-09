@@ -1,7 +1,6 @@
 // Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
 // SPDX-License-Identifier: MIT-0
-import core from '@amazon-sumerian-hosts/core';
-const {Speech: CoreSpeech, AbstractSpeech} = core
+import {Speech as CoreSpeech, AbstractSpeech} from '@amazon-sumerian-hosts/core';
 /**
  * @extends core/Speech
  * @alias Babylon.js/Speech
