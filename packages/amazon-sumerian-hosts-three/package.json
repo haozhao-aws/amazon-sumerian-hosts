@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "@amazon-sumerian-hosts/core": "^2.0.0",
-    "three": "^0.125.0"
+    "three": "=0.127.0"
   },
   "optionalDependencies": {},
   "dependencies": {}

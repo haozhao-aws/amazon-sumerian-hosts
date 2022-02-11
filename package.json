@@ -5,6 +5,13 @@
     "./packages/amazon-sumerian-hosts-babylon",
     "./packages/amazon-sumerian-hosts-three"
   ],
+  "scripts": {
+    "test": "npm run --workspaces test", 
+    "build": "npm run --workspaces build",
+    "build-test": "npm run --workspaces build; npm run --workspaces test",
+    "release": "npm run --workspaces build",
+    "docs": "jsdoc -c jsdoc.conf.json"
+  },
   "devDependencies": {
     "@babel/core": "^7.8.4",
     "@babel/preset-env": "^7.8.4",
@@ -23,7 +30,7 @@
     "eslint-plugin-react": "^7.14.3",
     "eslint-plugin-react-hooks": "^1.7.0",
     "file-loader": "^6.2.0",
-    "jsdoc": "^3.6.7",
+    "jsdoc": "^3.6.10",
     "karma": "^6.3.9",
     "karma-chrome-launcher": "^3.1.0",
     "karma-firefox-launcher": "^2.1.2",
